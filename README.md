@@ -1,7 +1,7 @@
 # Docker Hub - custom php image(s)
 
 ## Quick reference
--	**GitHub**:  
+-	**Web**:  
 	[argabi.com](http://argabi.com)
 
 -	**GitHub**:  
