@@ -10,6 +10,5 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-install -j$(nproc) gd
 
 # Change Permission for Folder '/var/www/html'
-RUN chown -R 1000:1000 /var/www/html
+RUN chown -R $USER:$USER /var/www/html
 RUN chmod 777 /var/www/html
-USER 1000
